@@ -1,0 +1,4 @@
+---
+- import_playbook: playbooks/frontend.yml
+- include: playbooks/frontend.yml
+  when: "{{ ansible_role }}" == "frontend"

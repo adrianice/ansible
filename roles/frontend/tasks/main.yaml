@@ -34,7 +34,7 @@
     state: latest
     update_cache: yes
   with_items:
-    - "{{ packages }}"
+    "{{ packages }}"
 
 - name: create tmp folder
   file:
@@ -74,7 +74,7 @@
     name: "{{ item }}"
     group: "{{ item }}"
   with_items:
-    - "{{ users }}"
+    "{{ users }}"
 
 - name: delete user carrot
   user:

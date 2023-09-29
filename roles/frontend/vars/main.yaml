@@ -1,3 +1,15 @@
 ---
 vars:
-  pri_ip_address: "{{ pri_ip_address }}"
+  packages:
+    - wget
+    - unzip
+    - curl
+    - git
+    - jq
+    - apache2
+    - mysql-client
+    - php
+  users:
+    - apple
+    - banana
+    - carrot

@@ -21,13 +21,13 @@
     - restart sshd
 
 - name: flush handlers
-  meta: flush_handlers
+  ansible.builtin.meta: flush_handlers
 
 - name: copy config file to /etc/logrotate.d
   become: true
   copy:
-    src: "apache2"
-    dest: "/etc/logrotate.d/apache2"
+    src: "nginx"
+    dest: "/etc/logrotate.d/nginx"
     owner: root
     group: root
     mode: 0644

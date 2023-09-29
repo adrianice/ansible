@@ -26,8 +26,8 @@
 - name: copy config file to /etc/logrotate.d
   become: true
   copy:
-    src: "nginx"
-    dest: "/etc/logrotate.d/nginx"
+    src: "nginx.conf"
+    dest: "/etc/logrotate.d/nginx.conf"
     owner: root
     group: root
     mode: 0644

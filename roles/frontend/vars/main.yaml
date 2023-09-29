@@ -1,4 +1,3 @@
 ---
 vars:
   pri_ip_address: "{{ pri_ip_address }}"
-  

@@ -1,4 +1,4 @@
 ---
 vars:
   pri_ip_address: "{{ pri_ip_address }}"
-  ansible_role: "{{ ansible_role }}"
+  
